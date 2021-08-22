@@ -15,10 +15,12 @@ const (
 	IDENT = "IDENT"
 	INT   = "INT"
 
-	LPAREN = "("
-	RPAREN = ")"
-	LBRACE = "{"
-	RBRACE = "}"
+	LPAREN   = "("
+	RPAREN   = ")"
+	LBRACE   = "{"
+	RBRACE   = "}"
+	LBRACKET = "["
+	RBRACKET = "]"
 
 	// Delimiters
 	COMMA     = ","
