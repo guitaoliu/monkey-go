@@ -12,8 +12,9 @@ const (
 	EOF     = "EOF"
 
 	// Identifer and literals
-	IDENT = "IDENT"
-	INT   = "INT"
+	IDENT  = "IDENT"
+	INT    = "INT"
+	STRING = "STRING"
 
 	LPAREN   = "("
 	RPAREN   = ")"
@@ -25,6 +26,7 @@ const (
 	// Delimiters
 	COMMA     = ","
 	SEMICOLON = ";"
+	COLON     = ":"
 
 	// Keywords
 	FUNCTION = "FUNCTION"
@@ -48,8 +50,6 @@ const (
 
 	EQ     = "=="
 	NOT_EQ = "!="
-
-	STRING = "STRING"
 )
 
 var keywords = map[string]TokenType{
